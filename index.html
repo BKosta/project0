@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS styling-->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS for styling and layout-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar justify-content-end">
+        <ul class="nav nav-pills navbar-right">
+            <li class="nav-item"><a class="nav-link" href="#">Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Image Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Advanced Search</a></li>
+        </ul>
+    </nav>
+
+    <!--search bar-->
+    <div class="container col col-lg-5">
+        <div class="row justify-content-center"><img src="google.png" style="width: 275px;"></div>
+        <form class="mt-4"action="https://google.com/search">
+            <input class="form-control" type="text" name="q" size="1" style="border-radius: 25px;">
+            <div class="container mt-4 d-flex justify-content-center">
+                <button class="btn btn-light btn-sm buttonsStyle mr-3" type="submit">Google Search</button>
+                <button class="btn btn-light btn-sm buttonsStyle" type="submit">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
