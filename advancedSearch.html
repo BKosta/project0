@@ -14,30 +14,25 @@
     <!-- Bootstrap CSS for styling and layout-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Google Images</title>
+    <title>Google Advanced Search</title>
 </head>
 <body>
 
-    <!--navbar-->
-    <nav class="navbar justify-content-end">
+    <!--Top navbar-->
+
+    <nav class="navbar navbar-light" style="background-color:#F1F1F1;">
+        <a class="navbar-brand"><img src="google.png" style="width: 90px;"></a>
+    </nav>
+
+    <!--Bottom navbar-->
+    <nav class="navbar" style="border-bottom:1px solid #EBEBEB;">
+        <a class="navbar-brand ml-4 mt-1 mb-2" style="color: #D93025;">Advanced Search</a>
         <ul class="nav nav-pills navbar-right">
             <li class="nav-item"><a class="nav-link" href="index.html">Search</a></li>
             <li class="nav-item"><a class="nav-link" href="imageSearch.html">Image Search</a></li>
             <li class="nav-item"><a class="nav-link" href="advancedSearch.html">Advanced Search</a></li>
         </ul>
     </nav>
-
-
-    <!--search bar for images-->
-    <div class="container col col-lg-5">
-        <div class="row justify-content-center">
-            <img src="google.png" style="width: 275px;">
-            <h6 id="imgid">images</h6>
-        </div>
-        <form class="mt-4"action="https://images.google.com/images">
-            <input class="form-control" type="text" name="q" size="1" style="border-radius: 25px;">
-        </form>
-    </div>
 
 
 
