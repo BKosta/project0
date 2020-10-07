@@ -10,7 +10,7 @@ a {
 li:hover {
     text-decoration: underline;
 }
-div {
+.googlesearch {
     margin-top:105px;
 }
 .buttonsStyle {
@@ -24,4 +24,28 @@ div {
     font-family: Arial;
     color:#4285F4;
     padding-top: 66px;
+}
+.left-text {
+    font-family: Arial;
+    font-size: 13px;
+}
+.top-text {
+    font-family: Arial;
+}
+.right-text {
+    color: gray;
+    font-family: Arial;
+    font-size: 12px;
+}
+#test {
+    background-color: black;
+}
+.buttonsStyle2 {
+    font-weight: bold !important;
+    color:white !important;
+    background-color: #4889F1!important;
+    width: 130px;
+}
+.buttonsStyle2:hover {
+    background-color: #4084F2 !important;
 }
