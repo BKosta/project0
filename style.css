@@ -20,3 +20,8 @@ div {
 .buttonsStyle:hover {
     color:black !important;
 }
+#imgid {
+    font-family: Arial;
+    color:#4285F4;
+    padding-top: 66px;
+}
